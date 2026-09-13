@@ -1,0 +1,73 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# C# generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Publish output
+publish/
+wwwroot/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# User-specific local data
+appsettings.Local.json
+appsettings.Development.json
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Database files and local storage
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage reports
+coverage/
+.coverage
